@@ -12,15 +12,15 @@ This document maps your learning progress to the official CFP exam topic outline
 | Domain | Weight | Topics Covered | Status | Priority |
 |--------|--------|----------------|--------|----------|
 | **A. Professional Conduct & Regulation** | 8% | 0/6 topics | ⚪ Not Started | Medium |
-| **B. General Principles** | 15% | 0/10 topics | ⚪ Not Started | High |
-| **C. Risk Management & Insurance** | 11% | 3/10 topics | 🟡 In Progress (30%) | Medium |
+| **B. General Principles** | 15% | 1/10 topics | 🟡 Started (10%) | High |
+| **C. Risk Management & Insurance** | 11% | 4/10 topics | 🟡 In Progress (40%) | Medium |
 | **D. Investment Planning** | 17% | 4/9 topics | 🟡 In Progress (44%) | High |
 | **E. Tax Planning** | 14% | 6/8 topics | 🟢 Strong (75%) | Medium |
-| **F. Retirement Savings & Income** | 18% | 7/10 topics | 🟢 Strong (70%) | **HIGHEST** |
+| **F. Retirement Savings & Income** | 18% | 8/10 topics | 🟢 Strong (80%) | **HIGHEST** |
 | **G. Estate Planning** | 10% | 3/14 topics | 🟡 In Progress (21%) | Medium |
 | **H. Psychology of Financial Planning** | 7% | 0/6 topics | ⚪ Not Started | Low |
 
-**Overall Coverage**: 23/73 topics = **32% of exam topics covered**
+**Overall Coverage**: 26/73 topics = **36% of exam topics covered**
 
 ---
 
@@ -43,35 +43,48 @@ This document maps your learning progress to the official CFP exam topic outline
 
 ## B. General Principles of Financial Planning (15%)
 
-### ⚪ Not Covered Yet (0/10 topics)
+### 🟢 Mastered Topics (1/10)
+
+- [x] **B.12** Time value of money concepts and calculations
+  - **PV/FV calculations** (tested 2025-10-17) - High confidence
+  - Perfect equation setup: FV = PV × (1 + r)^n
+  - Compound interest understanding
+  - **Note**: Student had prior knowledge of this topic
+
+### ⚪ Not Covered Yet (9/10 topics)
 
 - [ ] **B.7** Financial planning process
 - [ ] **B.8** Financial statements
 - [ ] **B.9** Cash flow management
 - [ ] **B.10** Financing strategies and debt management
 - [ ] **B.11** Economic concepts
-- [ ] **B.12** Time value of money concepts and calculations
 - [ ] **B.13** Education needs analysis
 - [ ] **B.14** Education savings vehicles
 - [ ] **B.15** Education funding
 - [ ] **B.16** Gift / income tax strategies
 
-**Status**: Not started
+**Status**: 10% coverage - Just started
 **Priority**: HIGH (15% of exam - 3rd highest weighted domain)
-**Recommendation**: **URGENT - Should cover in next 1-2 sessions**
-**Note**: Time value of money (B.12) is critical for calculations across all domains
+**Recommendation**: **Focus on B.7-B.11 next** (financial planning process, statements, cash flow, economic concepts)
 
 ---
 
 ## C. Risk Management and Insurance Planning (11%)
 
-### 🟢 Mastered Topics (3/10)
+### 🟢 Mastered Topics (4/10)
 
 - [x] **C.19** Health insurance and health care cost management
   - **Medicare Parts A/B/C/D** (2025-10-15) - Medium-High confidence
   - Medicare enrollment and penalties - Medium-High confidence
   - Medicare cost-sharing - Medium confidence
   - **Gap**: Cost calculations improving (was Medium, now Low severity)
+
+- [x] **C.20** Disability income insurance (individual and group)
+  - **Own occupation vs any occupation** (tested 2025-10-17) - Medium-High confidence
+  - Premium differences (own occ 2x more expensive)
+  - Benefit qualification rules
+  - Modified own occupation (introduced)
+  - Best for high-income professionals with specialized skills
 
 - [x] **C.23** Life insurance (partial coverage)
   - **Life insurance beneficiary strategies** (2025-10-11) - High confidence
@@ -90,19 +103,18 @@ This document maps your learning progress to the official CFP exam topic outline
     - Collision vs comprehensive
     - Covered persons and rental car coverage
 
-### ⚪ Not Covered Yet (7/10 topics)
+### ⚪ Not Covered Yet (6/10 topics)
 
 - [ ] **C.17** Principles of risk and insurance
 - [ ] **C.18** Analysis and evaluation of risk exposures
-- [ ] **C.20** Disability income insurance (individual and group)
 - [ ] **C.21** Long-term care insurance and long-term care planning
 - [ ] **C.22** Qualified and Non-Qualified Annuities
 - [ ] **C.24** Business owner insurance solutions
 - [ ] **C.25** Insurance needs analysis
 
-**Status**: 30% coverage
+**Status**: 40% coverage
 **Priority**: Medium (11% of exam)
-**Recommendation**: Add disability and long-term care insurance in next insurance session
+**Recommendation**: Add long-term care insurance and annuities next; also need elimination/benefit periods for disability
 
 ---
 
@@ -190,7 +202,7 @@ This document maps your learning progress to the official CFP exam topic outline
 
 ## F. Retirement Savings and Income Planning (18%) ⭐ HIGHEST WEIGHT
 
-### 🟢 Mastered Topics (7/10)
+### 🟢 Mastered Topics (8/10)
 
 - [x] **F.45** Social Security and Medicare planning
   - **Social Security filing timeline** (2025-10-13) - High confidence
@@ -220,19 +232,28 @@ This document maps your learning progress to the official CFP exam topic outline
     - Ratio percentage test
     - Average benefits test
 
-### ⚪ Not Covered Yet (3/10 topics)
+- [x] **F.51** Distribution rules and taxation
+  - **RMD rules** (tested 2025-10-17) - High confidence
+    - RMD age requirements: 73 (born 1951-1959), 75 (born 1960+)
+    - RMD calculation: Account balance ÷ life expectancy factor
+    - Perfect calculation: $500k ÷ 26.5 = $18,868
+    - April 1 delay exception for first RMD only
+    - 25% penalty for missed RMD (reducible to 10% if corrected)
+    - Roth IRAs: No RMD during owner's lifetime
+  - **Gap**: Early withdrawal exceptions and 72(t) not yet covered
+
+### ⚪ Not Covered Yet (2/10 topics)
 
 - [ ] **F.44** Retirement needs analysis
 - [ ] **F.46** Eldercare and special needs planning
 - [ ] **F.49** Non-qualified plan rules and options
 - [ ] **F.50** Key factors affecting plan selection for businesses
-- [ ] **F.51** Distribution rules and taxation (RMD rules, early withdrawal exceptions)
 - [ ] **F.52** Retirement income and distribution strategies
 - [ ] **F.53** Business succession planning
 
-**Status**: 70% coverage - STRONG foundation
+**Status**: 80% coverage - EXCELLENT foundation
 **Priority**: **HIGHEST** (18% of exam - most heavily weighted domain)
-**Recommendation**: **Focus on F.51 (distribution rules/RMDs) and F.52 (retirement income strategies) next**
+**Recommendation**: **Add early withdrawal exceptions (F.51 continued) and retirement income strategies (F.52)**
 
 ---
 
