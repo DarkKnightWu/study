@@ -1245,3 +1245,481 @@ P₀ = D₁ / (r - g)
 **Tax Planning Domain**: Added E.36 and E.40 coverage
 
 **Ready for**: Complete Investment Planning (D.31 only remaining), or move to high-priority gaps (E.38 Business Taxation, General Principles domain)
+
+---
+
+# Session Continuation - October 25, 2025 (Part 3)
+
+## Session Overview - Part 3
+- **Date**: 2025-10-25
+- **Duration**: ~30 minutes
+- **Format**: Practice problem testing - answer key challenges
+- **Main Topics**: Gordon Growth Model validation, Sharpe Ratio, Bond valuation debate, Geometric vs Arithmetic average
+- **Days Until Exam**: 16 days
+
+---
+
+## Practice Problems - Session Continuation (Part 3)
+
+### Topic 10: Gordon Growth Model - Answer Key Challenge (D.32)
+
+**Topic**: D.32 Bond and stock valuation - Gordon Growth Model application
+
+**Problem Given**: Riverton Co. - Expected annual dividend $2.50, required return 7%, growth rate 3%, trading at $60. What conclusion regarding valuation?
+- The stock is undervalued and should be purchased.
+- The stock is overvalued and should be sold. (claimed correct answer)
+- The required rate of return is too low.
+- The analyst should use a different valuation model.
+
+---
+
+**Student's Calculation**:
+```
+Intrinsic Value = D₁ / (r - g)
+Intrinsic Value = $2.50 / (0.07 - 0.03)
+Intrinsic Value = $2.50 / 0.04
+Intrinsic Value = $62.50 ✓ CORRECT
+```
+
+**Student's Logic**:
+- Intrinsic Value ($62.50) > Market Price ($60)
+- Stock trading at discount
+- **Answer: Undervalued, should purchase** ✓
+
+**Student's Answer**: A (Undervalued and should be purchased)
+**Answer Key Says**: B (Overvalued and should be sold)
+
+---
+
+**Analysis - Student is CORRECT, Answer Key is WRONG**:
+
+**Valuation Decision Rule**:
+- Intrinsic Value > Market Price → **UNDERVALUED** → BUY
+- Intrinsic Value < Market Price → **OVERVALUED** → SELL
+- Intrinsic Value = Market Price → **FAIRLY VALUED** → HOLD
+
+**In this case**:
+$62.50 (intrinsic) > $60 (market) → Getting $2.50 discount!
+
+**Conclusion**: Student's answer is 100% correct. Answer key has error (either backwards logic or typo in numbers).
+
+---
+
+**Understanding Level**: EXCELLENT
+- Perfect Gordon Growth Model calculation ✓
+- Correct valuation logic ✓
+- Properly challenged wrong answer key ✓
+
+---
+
+### Topic 11: Risk-Adjusted Performance Measures (D.30)
+
+**Topic**: D.30 Quantitative investment concepts - Performance ratios
+
+**Problem Given**: Compare 3 mutual funds with different risk levels. Which ratio most appropriate for measuring risk-adjusted performance?
+- Correlation Coefficient
+- Alpha
+- Sharpe Ratio ✓
+- Earnings Yield
+
+**Given Data**:
+- Fund A: 8% return, 15% std dev, beta 1.2
+- Fund B: 9% return, 20% std dev, beta 1.1
+- Fund C: 6.5% return, 10% std dev, beta 0.9
+- Risk-free rate: 3%
+
+---
+
+**Student's Initial State**:
+- "I have headache to remember this"
+- Knows all the math but struggles with English names
+- Needs memory system
+
+---
+
+**Teaching - "S-T-A" Memory System**:
+
+### **S = Sharpe** (uses **S**tandard deviation)
+```
+Sharpe Ratio = (Return - Risk-free) / Standard Deviation
+```
+**Memory**: "**S**harpe uses **S**tandard deviation"
+**Measures**: Return per unit of TOTAL risk
+**When to use**: Comparing different funds ← **THIS QUESTION**
+
+### **T = Treynor** (uses be**T**a)
+```
+Treynor Ratio = (Return - Risk-free) / Beta
+```
+**Memory**: "**T**reynor uses be**T**a"
+**Measures**: Return per unit of SYSTEMATIC risk
+**When to use**: Well-diversified portfolios
+
+### **A = Alpha** (uses CAPM - **A**ctual vs Expected)
+```
+Alpha = Actual Return - [Risk-free + Beta × (Market Return - Risk-free)]
+```
+**Memory**: "**A**lpha = **A**ctual minus Expected"
+**Measures**: Excess return beyond CAPM prediction
+**When to use**: Did manager beat the market?
+
+---
+
+**Quick Decision Tree**:
+- Question gives **Standard Deviation**? → Use **Sharpe**
+- Question gives **Beta only**? → Use **Treynor**
+- Question asks **"beat the market"**? → Use **Alpha**
+
+---
+
+**Calculations for This Problem**:
+
+**Fund A Sharpe**: (8% - 3%) / 15% = 0.33
+**Fund B Sharpe**: (9% - 3%) / 20% = 0.30
+**Fund C Sharpe**: (6.5% - 3%) / 10% = **0.35** ← BEST
+
+Fund C wins! Highest return per unit of risk, even though lowest absolute return.
+
+---
+
+**Why NOT the Other Answers**:
+
+**Correlation Coefficient** ❌
+- Measures relationship between variables
+- NOT a performance measure
+- Wrong category
+
+**Alpha** ❌
+- Can measure performance, but not a "ratio"
+- Question asks for best RATIO
+- More complex (needs market return not given)
+
+**Earnings Yield** ❌
+- For STOCKS (Earnings / Price)
+- Wrong context (this is mutual funds)
+
+---
+
+**Answer: Sharpe Ratio** ✓
+
+---
+
+**Understanding Level**: EXCELLENT
+- Learned memory system for 3 ratios ✓
+- Understood when to use each ✓
+- Can calculate Sharpe Ratio correctly ✓
+- Recognized Sharpe as "return per unit of risk" ✓
+
+---
+
+### Topic 12: Bond Valuation Process - Debatable Question (D.32)
+
+**Topic**: D.32 Bond and stock valuation - Interest rate and bond price relationship
+
+**Problem Given**: Client asks about how bond prices affected by interest rate fluctuations. What should CFP explain as process of bond valuation?
+- As interest rates increase, bond prices decrease, making new bonds more attractive.
+- Interest rate changes have more significant effect on bonds with longer maturities.
+- As interest rates decrease, existing bonds with higher rates become more valuable. (claimed correct)
+- Bonds with shorter maturities have less interest rate risk compared to longer-term bonds.
+
+---
+
+**Student's Initial Analysis**:
+- "I feel multiple statements are correct here"
+- Identified ALL FOUR as true statements ✓
+- Confused about how to select best answer
+
+**Student Selected**: A (As rates increase, prices decrease, new bonds more attractive)
+
+**Answer Key Says**: C (As rates decrease, existing bonds become more valuable)
+
+---
+
+**Analysis - ALL FOUR ARE TRUE**:
+
+**Statement A** ✓ TRUE:
+- Explains FUNDAMENTAL inverse relationship
+- Explains WHY it happens (new bonds more attractive)
+- Most COMPLETE explanation of valuation process
+
+**Statement B** ✓ TRUE:
+- About MAGNITUDE (duration effect)
+- NOT about fundamental PROCESS
+- Secondary concept
+
+**Statement C** ✓ TRUE:
+- Only explains ONE DIRECTION (rates decreasing)
+- Less complete than A
+- Focuses on "existing bonds" (matches client's inherited portfolio)
+
+**Statement D** ✓ TRUE:
+- About RISK MANAGEMENT
+- NOT about VALUATION PROCESS
+- Answers concern but not question
+
+---
+
+**Instructor's Assessment**:
+
+**Initial Position**: Answer A is better (fundamental, complete, both directions)
+
+**After Challenge**: Answer C might be chosen because:
+- Question context: Client has INHERITED portfolio (existing bonds)
+- C specifically addresses "existing bonds"
+- Practical application to client situation
+
+**Final Assessment**:
+- This is a POORLY WORDED question
+- Answer depends on interpretation (fundamental principle vs client-specific)
+- Not clear-cut like other questions
+- Possibly wrong answer key (we've seen 2 wrong keys today already!)
+
+---
+
+**Understanding Level**: EXCELLENT
+- Correctly identified all four as true ✓
+- Understood fundamental inverse relationship ✓
+- Demonstrated critical thinking about question quality ✓
+
+---
+
+### Topic 13: Geometric vs Arithmetic Average (D.30)
+
+**Topic**: D.30 Quantitative investment concepts - Average return measures
+
+**Problem Given**: Portfolio returns over 5 years: 12%, -8%, 15%, 5%, 10%. What is most appropriate measure that considers variability?
+- Arithmetic average, because simpler
+- Geometric average, because accounts for compounding ✓
+- Standard deviation, because provides insight into variability
+- Harmonic mean, because better for fluctuating returns
+
+---
+
+**Student's Initial State**:
+- "I know all the math but have difficulty remember the name"
+- "Not first English language speaker"
+- Needs non-English memory tricks
+
+---
+
+**Teaching - Visual Memory System (Non-English)**:
+
+### **1. Arithmetic Average** = 📏 "STRAIGHT LINE"
+```
+Formula: Add up ÷ Count
+(12 + (-8) + 15 + 5 + 10) ÷ 5 = 6.8%
+```
+**Memory**: STRAIGHT ruler, simple math (add and divide)
+
+### **2. Geometric Average** = 🌱 "GROWTH"
+```
+Formula: [(1+r₁) × (1+r₂) × ...]^(1/n) - 1
+```
+**Memory**: "GEOmetric" = "GROWTH" (both start with G!)
+**Shows**: What ACTUALLY happened to your money (compound growth)
+
+### **3. Standard Deviation** = 📊 "SPREAD" (NOT average!)
+```
+Measures: How spread out numbers are
+```
+**Memory**: ± symbol, shows how BUMPY the ride was
+
+### **4. Harmonic Mean** = 🚗 "SPEED"
+```
+Used for: Averaging speeds, rates
+```
+**Memory**: Car speed averages, rarely used for investments
+
+---
+
+**Visual Summary Table**:
+
+| Type | Symbol | When to Use | Memory |
+|------|--------|-------------|--------|
+| Arithmetic | 📏 | Quick estimate | STRAIGHT line |
+| Geometric | 🌱 | Multi-period GROWTH | COMPOUND growth |
+| Std Dev | 📊 | Measure RISK | How BUMPY |
+| Harmonic | 🚗 | Speeds/rates | SPEED average |
+
+---
+
+**Why Geometric is Correct**:
+
+**Question asks**: "considers the variability in returns"
+
+**Geometric average "considers variability" because**:
+- Accounts for COMPOUNDING (ups AND downs)
+- Shows actual average growth rate
+- If you go up 50% then down 50%:
+  - Arithmetic says 0% average
+  - But you LOST money! ($100 → $150 → $75)
+  - Geometric shows actual result
+
+**Calculation**:
+Starting with $100:
+- Year 1: $100 × 1.12 = $112
+- Year 2: $112 × 0.92 = $103.04
+- Year 3: $103.04 × 1.15 = $118.50
+- Year 4: $118.50 × 1.05 = $124.43
+- Year 5: $124.43 × 1.10 = $136.87
+
+**Geometric average**:
+```
+[(1.12 × 0.92 × 1.15 × 1.05 × 1.10)]^(1/5) - 1
+= [1.3687]^0.2 - 1
+= 6.47%
+```
+
+Check: $100 × (1.0647)^5 = $136.87 ✓
+
+**Arithmetic**: 6.8%
+**Geometric**: 6.47% (lower and more accurate)
+
+---
+
+**Why NOT the Others**:
+
+**A) Arithmetic** ❌
+- Ignores compounding
+- Overstates performance
+
+**C) Standard deviation** ❌
+- NOT an average return!
+- Measures variability/risk
+- Wrong category
+
+**D) Harmonic mean** ❌
+- For speeds/rates
+- Not typically used for investment returns
+
+---
+
+**Simple Rule**:
+- "Average return over multiple periods" → **Geometric**
+- "Measure of risk/variability" → **Standard deviation**
+
+---
+
+**Answer: B) Geometric average, because accounts for compounding** ✓
+
+---
+
+**Understanding Level**: EXCELLENT
+- Learned visual memory system (non-English dependent) ✓
+- Understood geometric shows actual growth ✓
+- Recognized standard deviation is NOT an average ✓
+- Can apply correct formula for context ✓
+
+---
+
+## Topics Covered - Session Part 3
+
+| Topic | CFP Code | Confidence | Notes |
+|-------|----------|------------|-------|
+| Gordon Growth Model Validation | D.32 | High | Student correct, answer key wrong |
+| Sharpe Ratio (S-T-A System) | D.30 | High | Memory system mastered |
+| Bond Valuation Process | D.32 | Medium-High | Debatable question, all answers true |
+| Geometric vs Arithmetic Average | D.30 | High | Visual memory system learned |
+
+---
+
+## Key Concepts Mastered - Part 3
+
+### Gordon Growth Model Validation
+- **Formula**: P₀ = D₁ / (r - g)
+- **Decision rule**: Intrinsic > Market = Undervalued (BUY)
+- Example: $62.50 intrinsic vs $60 market = $2.50 discount
+- Student correctly challenged wrong answer key ✓
+
+### Risk-Adjusted Performance Ratios (S-T-A System)
+- **Sharpe**: (Return - RF) / Standard Deviation
+  - Memory: "**S**harpe uses **S**td dev"
+  - Use: Comparing funds with different total risk
+- **Treynor**: (Return - RF) / Beta
+  - Memory: "**T**reynor uses be**T**a"
+  - Use: Well-diversified portfolios
+- **Alpha**: Actual - Expected (from CAPM)
+  - Memory: "**A**lpha = **A**ctual vs expected"
+  - Use: Manager performance vs market
+- **Decision tree**: Std dev given → Sharpe, Beta only → Treynor, Beat market → Alpha
+
+### Bond Valuation Inverse Relationship
+- Rate ↑ → Price ↓ (new bonds more attractive)
+- Rate ↓ → Price ↑ (existing bonds more valuable)
+- Longer maturity = greater price sensitivity
+- Shorter maturity = less interest rate risk
+- All four statements in question were TRUE (poorly worded question)
+
+### Geometric vs Arithmetic Average
+- **Arithmetic** 📏: Simple average (add ÷ count)
+  - Ignores compounding
+  - Overstates performance
+- **Geometric** 🌱: Compound growth average
+  - Shows actual money growth
+  - Accounts for variability through compounding
+  - Always ≤ arithmetic (especially with volatility)
+- **Standard Deviation** 📊: Measures spread/risk (NOT an average!)
+- **Harmonic** 🚗: For speeds/rates (rarely for investments)
+- **Rule**: Multi-period returns → Geometric
+
+---
+
+## Progress Assessment - Part 3
+
+**New Topics Mastered**:
+- D.30 Sharpe/Treynor/Alpha ratios (S-T-A system)
+- D.30 Geometric vs Arithmetic average (with visual memory aids)
+
+**Topics Reinforced**:
+- D.32 Gordon Growth Model (validated understanding)
+- D.32 Bond valuation inverse relationship
+
+**Critical Thinking Demonstrated**:
+- Challenged 2 wrong answer keys today (Gordon Growth, Duration)
+- Both times student was CORRECT ✓
+- Identified poorly worded bond valuation question
+- Demanded research-based corrections
+
+**Strengths Observed**:
+- Excellent calculation accuracy
+- Strong logical reasoning
+- Not intimidated by answer keys
+- Willing to demand verification
+- Quick learning with memory systems
+
+---
+
+## Session Statistics - Part 3
+
+**Session Duration**: ~30 minutes
+**Topics Covered**: 4 major topics (answer key challenges + new ratios)
+**Format**: Practice problem testing with critical analysis
+**Performance**: Outstanding - challenged errors, demanded accuracy
+
+**Days Until Exam**: 16 days
+
+---
+
+## Notes - Session Part 3
+
+**Major Achievement**: Student challenged TWO wrong answer keys in one session (Gordon Growth Model and Modified Duration) and was CORRECT both times. This demonstrates:
+1. Strong technical understanding
+2. Confidence in own calculations
+3. Unwillingness to accept errors
+4. Critical thinking skills
+5. Appropriate skepticism of materials
+
+**Learning Adaptations**:
+- Created visual/symbol-based memory system for non-English speaker
+- Used emojis (📏🌱📊🚗) to make concepts language-independent
+- "S-T-A" acronym for risk-adjusted ratios
+- Focused on patterns and visual cues vs English word origins
+
+**Answer Key Quality Issues Identified**:
+1. Gordon Growth Model: Answer key had valuation backwards (undervalued vs overvalued)
+2. Modified Duration: Answer key used Macaulay instead of Modified (student correct with 18.5%)
+3. Bond Valuation: Poorly worded question with all answers technically true
+
+**Investment Planning Domain**: D.30 now substantially covered (CAPM, Sharpe/Treynor/Alpha, Geometric average)
+
+**Ready for**: D.31 Asset Allocation (final Investment Planning topic), then move to General Principles (B domain - 15% of exam, only 30% covered)

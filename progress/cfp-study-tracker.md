@@ -397,8 +397,40 @@ This single document tracks ALL your CFP exam preparation progress, including:
     - **NOT an equation to solve for x** - formula directly gives required return
     - Example: Beta 1.20, RF 1%, MRP 7% → Required Return = 9.4% ✓
     - Perfect on practice problem ✓
+  - **Risk-Adjusted Performance Ratios** (2025-10-25) - MASTERED:
+    - **"S-T-A" Memory System** for non-English speakers:
+      - **S**harpe uses **S**tandard deviation
+      - **T**reynor uses be**T**a
+      - **A**lpha = **A**ctual vs Expected
+    - **Sharpe Ratio** = (Return - Risk-free) / Standard Deviation
+      - Measures return per unit of TOTAL risk
+      - Use when: Comparing funds with different risk levels ✓
+      - Example: Fund C had 0.35 (best) vs Fund A 0.33, Fund B 0.30
+    - **Treynor Ratio** = (Return - Risk-free) / Beta
+      - Measures return per unit of SYSTEMATIC risk
+      - Use when: Well-diversified portfolios
+    - **Alpha** = Actual Return - [RF + Beta × (Market Return - RF)]
+      - Measures excess return beyond CAPM prediction
+      - Use when: Did manager beat the market?
+    - **Decision Tree**: Std dev given → Sharpe, Beta only → Treynor, "Beat market" → Alpha
+    - Perfect on practice problem (Sharpe Ratio) ✓
+  - **Geometric vs Arithmetic Average** (2025-10-25) - MASTERED:
+    - **Visual memory system** (non-English dependent):
+      - Arithmetic 📏 = STRAIGHT line (add ÷ count)
+      - Geometric 🌱 = GROWTH (compound average)
+      - Standard Deviation 📊 = SPREAD (NOT an average!)
+      - Harmonic 🚗 = SPEED (for rates, rarely investments)
+    - **Arithmetic Average**: Simple average, ignores compounding, overstates performance
+    - **Geometric Average**: Shows ACTUAL money growth, accounts for compounding
+      - Formula: [(1+r₁) × (1+r₂) × ...]^(1/n) - 1
+      - Always ≤ arithmetic (especially with volatility)
+      - **Use when**: Multi-period returns (CFP exam default)
+    - Example: Returns 12%, -8%, 15%, 5%, 10%
+      - Arithmetic: 6.8%
+      - Geometric: 6.47% (more accurate) ✓
+    - Perfect on practice problem ✓
   - **In slides**: Pages 60-75 (HPR, IRR, Standard deviation, Beta, Sharpe/Treynor/Jensen, NPV)
-  - **Still need to cover**: Standard deviation, Sharpe/Treynor/Jensen ratios, NPV/IRR calculations
+  - **Still need to cover**: Standard deviation calculations, NPV/IRR calculations
 
 ### Not Yet Studied (1/9 topics)
 
